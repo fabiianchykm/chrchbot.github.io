@@ -1,6 +1,24 @@
 <!DOCTYPE html>
+<head>
+    <style>
+        .menu {
+            display: flex;
+        }
+        /* Стилізація кнопок */
+        .btn {
+            display: inline-block; /* Розташовувати кнопки в рядок */
+            padding: 10px 20px;
+            background-color: #f0f0f0;
+            color: #333;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+            transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease; /* Плавний перехід */
+        }
+    </style>
 <html>
-    <body>
-        <h1>Hello Chrch!</h1>
+    <body class="menu">
+        <button class="btn">Розклад служінь</button>
+        <button class="btn">Бібліотека</button>
     </body>
 </html>
