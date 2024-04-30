@@ -1,24 +1,57 @@
 <!DOCTYPE html>
 <head>
-    <style>
-        .menu {
-            display: flex;
-        }
-        /* Стилізація кнопок */
-        .btn {
-            display: inline-block; /* Розташовувати кнопки в рядок */
-            padding: 10px 20px;
-            background-color: #f0f0f0;
-            color: #333;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-            font-size: 16px;
-            transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease; /* Плавний перехід */
-        }
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Arial:wght@300;400;500;600;700&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+
+
+<style>
+    a:link { 
+        text-decoration: none; 
+    }   
+    .menu {
+        background-color: #f8fbfd;
+    }
+    /* Стилізація кнопок */
+    .btn {
+        display: flex;
+        background-color: #fefeff;
+        text-align: left;
+        width: 100%;
+        border-radius: 5px;
+        color: #1f1e1e;
+        padding: 20px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        font-size: 20px;
+    }
+
     </style>
 <html>
+    
     <body class="menu">
-        <button class="btn">Розклад служінь</button>
-        <button class="btn">Бібліотека</button>
+        <a href="https://telegra.ph/Rozklad-sluzh%D1%96n-02-26/">
+            <button class="btn">
+                    <span class="material-symbols-outlined">
+                        calendar_today
+                    </span>
+                Розклад служінь
+                    <span class="material-symbols-outlined">
+                        chevron_right
+                    </span>
+            </button>
+        </a>
+
+        <button class="btn">
+                <span class="material-symbols-outlined">
+                    library_books
+                </span>
+            Бібліотека
+            <span class="material-symbols-outlined">
+                chevron_right
+                </span>
+        </button>
     </body>
 </html>
