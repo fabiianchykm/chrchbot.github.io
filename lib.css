@@ -1,0 +1,24 @@
+.lib {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.lib > div {
+    flex: 50%;
+    margin-bottom: 10px;
+  }
+.book img {
+    max-width: 150px;
+}
+.book p {
+    max-width: 150px;
+
+}
+a:link { 
+    text-decoration: none;
+    color: black;
+}
+
+* {
+    box-sizing: border-box;
+}
