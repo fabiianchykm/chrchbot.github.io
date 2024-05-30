@@ -1,14 +1,13 @@
 .lib {
     display: flex;
     flex-wrap: wrap;
-
 }
 .lib > div {
     flex: 50%;
     margin-bottom: 10px;
   }
 .book img {
-    max-width: 150px;
+    max-width: 60%;
 }
 .book p {
     max-width: 150px;
