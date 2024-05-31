@@ -1,16 +1,23 @@
 .lib {
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
+    max-width: 400px;
 }
 .lib > div {
-    flex: 50%;
-    margin-bottom: 10px;
-  }
+    max-width: 200px;
+    border: 1px solid black;
+
+}
 .book img {
-    max-width: 50%;
+    max-width: 200px;
+    border: 1px solid black;
+
 }
 .book p {
-    max-width: 150px;
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
 
 }
 a:link { 
