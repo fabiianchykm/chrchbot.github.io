@@ -2,6 +2,9 @@
     display: flex;
     flex-wrap: wrap;
 }
+.lib > div {
+    flex: 50%;
+}
 .book img {
     max-width: 200px;
 }
